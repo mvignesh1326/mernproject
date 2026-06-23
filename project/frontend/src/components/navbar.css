@@ -1,0 +1,68 @@
+.navbar{
+
+    width:220px;
+    height:100vh;
+
+    background:#2563eb;
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    padding-top:30px;
+
+}
+
+
+.logo{
+
+    color:white;
+
+    margin-bottom:40px;
+
+}
+
+
+.nav-links{
+
+    list-style:none;
+
+    padding:0;
+
+    width:100%;
+
+}
+
+
+.nav-links li{
+
+    padding:15px;
+
+    text-align:center;
+
+}
+
+
+.nav-links a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:18px;
+
+}
+
+
+.nav-links li:hover{
+
+    background:#1d4ed8;
+
+}
